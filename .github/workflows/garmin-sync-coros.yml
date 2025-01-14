@@ -3,10 +3,10 @@ name: garmin-sync-coros
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0,10,20,30,40,50 * * * *'
+    - cron: '0 */4 * * *'
 env:
-  GITHUB_NAME: hubiter
-  GITHUB_EMAIL: tninja@foxmail.com
+  GITHUB_NAME: Beita96
+  GITHUB_EMAIL: 609965925@qq.com
   ## 佳明配置
   GARMIN_AUTH_DOMAIN: ${{ secrets.GARMIN_AUTH_DOMAIN }}
   GARMIN_EMAIL: ${{ secrets.GARMIN_EMAIL }}
